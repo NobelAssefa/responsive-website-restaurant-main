@@ -597,6 +597,10 @@ form .form-row .textarea{
   .submit-btn .input-data{
     width: 40%!important;
   }
+  .footer_section{
+    margin-top: 105px;
+   
+  }
 }
 
 /*========== FOOTER ==========*/
@@ -673,7 +677,7 @@ padding: 0px;
 @media screen and (min-width: 576px) {
 
   .home__container,
-  .about__container,
+  
   .app__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
