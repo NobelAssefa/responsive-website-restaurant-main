@@ -95,7 +95,10 @@ body {
   color: var(--text-color);
   line-height: 1.6;
 }
+.slide-container{
+  width: 70% !important;
 
+}
 h1,
 h2,
 h3,
@@ -288,6 +291,7 @@ img {
 .home__container {
   height: calc(100vh - var(--header-height));
   align-content: center;
+  padding: 10px;
 }
 
 .home__title {
@@ -328,6 +332,7 @@ img {
 /*========== ABOUT ==========*/
 .about__data {
   text-align: center;
+  
 }
 
 .about__description {
@@ -601,6 +606,9 @@ form .form-row .textarea{
     margin-top: 105px;
    
   }
+  .swiper-slide{
+    width: 100px !important; 
+  }
 }
 
 /*========== FOOTER ==========*/
@@ -677,7 +685,7 @@ padding: 0px;
 @media screen and (min-width: 576px) {
 
   .home__container,
-  
+  .about__container,
   .app__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -705,6 +713,9 @@ padding: 0px;
 
   .contact__button {
     justify-self: center;
+  }
+  .swiper-slide{
+    width: 150px !important; 
   }
 }
 
